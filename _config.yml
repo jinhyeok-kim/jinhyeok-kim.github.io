@@ -106,7 +106,7 @@ author:
   name             : "JINHYEOK KIM"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "I am an amazing person."
-  location         : "Daejeon & Daegu, Korea"
+  location         : "Daejeon&Daegu,Korea"
   email            : "jinhyeok.kim.dev@gmail.com"
   links:
     - label: "Email"
