@@ -20,4 +20,5 @@ Hello World
 
 videooo
 hi hello
-auto merge!!! 
+auto merge!!!
+one more
