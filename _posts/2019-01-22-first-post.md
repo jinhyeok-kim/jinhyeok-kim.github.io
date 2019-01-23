@@ -18,6 +18,4 @@ Hello World
 > 첫 번째 인용문
 >> 두 번째 인용문
 
-{% youtube https://www.youtube.com/watch?v=G33WiEktUo8 %}
-
 test
