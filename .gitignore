@@ -4,6 +4,9 @@ _site
 .jekyll-metadata
 Gemfile.lock
 
+### Img ###
+_img
+
 
 ### Gulp ###
 package.json
