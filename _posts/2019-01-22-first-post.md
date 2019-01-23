@@ -19,3 +19,7 @@ Hello World
 >> 두 번째 인용문
 
 test
+
+{% youtube https://www.youtube.com/watch?v=G33WiEktUo8 %}
+
+video
