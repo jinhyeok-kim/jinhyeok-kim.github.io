@@ -1,7 +1,7 @@
 language: ruby
-
 rvm:
 - 2.3.3
+
 before_script:
  - chmod +x ./script/cibuild # or do this locally and commit
 
@@ -15,15 +15,15 @@ branches:
   - gh-pages     # test the gh-pages branch
   - /pages-(.*)/ # test every branch which starts with "pages-"
 
+env:
+  global:
+  - NOKOGIRI_USE_SYSTEM_LIBRARIES=true # speeds up installation of html-proofer
+  - secure: "eWEiSWK4RK0Q669z4vSGfiq/ySw7s2kDoOyzGTRpOOl6s7PvnFHh6X0djjypPI8gqBUBz/h+5TL96F7Sl9SCEthbdaIP7RUbnn8xJV0AeyWCHyCrxhiEG6MtyU0i5DudiAA2QfGPh0x/gQrlMkM8yBIN4odcTwejQMQigL9v3TiTmIl5RJze7vTbOiZbF4QMMKcuMyJTckpskP+VHwdushEioKm333lcZLY2ZdoxIOiGjRj3xzT/qWalc9PfZEM8ngFZ5PlSb/RUs3pblzRGVUzsUfzh6dZw7aEgVAjR17i7fkBGN/8aCKbae+TEx1weOIaVmAbONe4X+tJlDFX3Kv4KTYifOrTVi3M8+OVkrPKhoymosKR1wpJ6mfS50qlC8Z5RQWvlXT8KKaeQDX5spYfQNosAN5R3SrCM5eO1T5/RSvuZAufb6HW0EoKtuCz5FAmK5f3wS36YEXfZK77V23JBKvOhubZHhA/PA57BiO5WXuU6ZueR3+tdNG/iePaqft+tgN7rwG2qOObzfi3C0mbhmlwkNEPyo1bBncql3+zkfPrcxscOX4ZUxE/wRpp+bW/JvuNjDxikWDZK02LppmHLU6suFw+pG1IFKVK7EnMkLrQvgMiLvK04hHHhiBiFBRaCa3j2Q/1hgA5wv6C96wILbAwpmYmlgQVXglbGkHQ="
+
 after_success:
   - "curl -o /tmp/travis-automerge https://raw.githubusercontent.com/cdown/travis-automerge/master/travis-automerge"
   - "chmod a+x /tmp/travis-automerge"
   - "BRANCHES_TO_MERGE_REGEX='^gh' BRANCH_TO_MERGE_INTO=master GITHUB_REPO=jihyeok-kim/jinhyeok-kim.github.io /tmp/travis-automerge"
 
-env:
-  - secure: "eWEiSWK4RK0Q669z4vSGfiq/ySw7s2kDoOyzGTRpOOl6s7PvnFHh6X0djjypPI8gqBUBz/h+5TL96F7Sl9SCEthbdaIP7RUbnn8xJV0AeyWCHyCrxhiEG6MtyU0i5DudiAA2QfGPh0x/gQrlMkM8yBIN4odcTwejQMQigL9v3TiTmIl5RJze7vTbOiZbF4QMMKcuMyJTckpskP+VHwdushEioKm333lcZLY2ZdoxIOiGjRj3xzT/qWalc9PfZEM8ngFZ5PlSb/RUs3pblzRGVUzsUfzh6dZw7aEgVAjR17i7fkBGN/8aCKbae+TEx1weOIaVmAbONe4X+tJlDFX3Kv4KTYifOrTVi3M8+OVkrPKhoymosKR1wpJ6mfS50qlC8Z5RQWvlXT8KKaeQDX5spYfQNosAN5R3SrCM5eO1T5/RSvuZAufb6HW0EoKtuCz5FAmK5f3wS36YEXfZK77V23JBKvOhubZHhA/PA57BiO5WXuU6ZueR3+tdNG/iePaqft+tgN7rwG2qOObzfi3C0mbhmlwkNEPyo1bBncql3+zkfPrcxscOX4ZUxE/wRpp+bW/JvuNjDxikWDZK02LppmHLU6suFw+pG1IFKVK7EnMkLrQvgMiLvK04hHHhiBiFBRaCa3j2Q/1hgA5wv6C96wILbAwpmYmlgQVXglbGkHQ="
-
-  global:
-  - NOKOGIRI_USE_SYSTEM_LIBRARIES=true # speeds up installation of html-proofer
 
 sudo: false # route your build to the container-based infrastructure for a faster build
