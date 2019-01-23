@@ -19,4 +19,5 @@ Hello World
 >> 두 번째 인용문
 
 videooo
-hi
+hi hello
+auto merge!!! 
