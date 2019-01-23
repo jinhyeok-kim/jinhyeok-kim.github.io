@@ -19,11 +19,3 @@ Hello World
 >> 두 번째 인용문
 
 video
-hi
-hello
-ci
-onemore test 
-ii
-hh
-iiiii
-lll
