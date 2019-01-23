@@ -7,8 +7,8 @@ before_script:
 
 # Assume bundler is being used, therefore
 # the `install` step will run `bundle install` by default.
-script: bundle exec jekyll build 
-		bundle exec htmlproofer ./_site #./script/cibuild
+script: bundle exec jekyll build  #./script/cibuild
+		
 
 # branch whitelist, only for GitHub Pages
 branches:
