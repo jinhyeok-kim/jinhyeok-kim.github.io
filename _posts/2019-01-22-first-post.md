@@ -19,4 +19,11 @@ Hello World
 >> 두 번째 인용문
 
 videooo 
-<iframe width="560" height="315" src="https://youtu.be/XW5Dsi3-SKk" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/XW5Dsi3-SKk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+hi hello
+auto merge!!!
+one more
+please!!
+retry
+:(iiiiijjjjjj
