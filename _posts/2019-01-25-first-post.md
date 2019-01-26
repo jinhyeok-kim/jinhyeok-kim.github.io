@@ -1,5 +1,15 @@
 ---
 title: "마크다운 Markdown 작성 및 사용 방법 정리"
+# header:
+#     video:
+#       id: XW5Dsi3-SKk
+#       provider: youtube
+sidebar:
+  title: "Sidebar"
+  nav: sidebar-sample
+readtime: true
+toc: true
+last_modified_at : 2019-01-25 23:02:08
 categories:
   - 일상
 tags:
