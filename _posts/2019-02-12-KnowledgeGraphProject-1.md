@@ -72,8 +72,8 @@ tags:
 <br>
 그렇다면 시맨틱 검색 정보를 사용 할 때 활용한 시맨틱 네트워크는 무엇인가?
 
-# 시맨틱 네트워크(Symantic Network)란?
-## 시맨틱 네트워크(Symantic Network)의 정의
+# 시맨틱 네트워크(Semantic Network)란?
+## 시맨틱 네트워크(Semantic Network)의 정의
 > 네트워크를 기초로 한 지식표현 방법으로, **객체(Object)**, **개념(Concepts)**, **사건(Events)**들을 표현하는 **노드(Node)**의 집합과 노드 사이의 **관계(Predicates 또는 속성)**를 표현하며 연결하는 **아크(Arc)의 집합**으로 이루어져 있다.
 
 시맨틱 네트워크를 바로 설명하기 전, 시맨틱 정보에 대해 먼저 설명해보자
@@ -86,7 +86,7 @@ tags:
 여기서 **'동물'**이라는 노드와 **'척추'**라는 노드 사이에는 **'가지다'**라는 관계를 가지고 있다.<br>
 <br>
 이런 시맨틱 정보들을 엮어서 네트워크로 만든 것이 **시맨틱 네트워크**이며 아래와 같은 그림으로 이해 할 수 있다.
-## 시맨틱 네트워크(Symantic Network)의 예시
+## 시맨틱 네트워크(Semantic Network)의 예시
 <figure class="half">
     <a href="https://user-images.githubusercontent.com/18658656/52614271-84f36980-2ed4-11e9-894e-43a878bc6a47.png"><img src="https://user-images.githubusercontent.com/18658656/52614271-84f36980-2ed4-11e9-894e-43a878bc6a47.png"></a>
     <a href="https://user-images.githubusercontent.com/18658656/52615081-37c4c700-2ed7-11e9-8950-1d16693c47bc.png"><img src="https://user-images.githubusercontent.com/18658656/52615081-37c4c700-2ed7-11e9-8950-1d16693c47bc.png"></a>
