@@ -7,7 +7,7 @@ readtime: true
 toc: true
 last_modified_at : 2019-02-15 16:01:01 #2019-02-13 21:14:00
 categories:
-  - 개발
+  - 지식그래프
 tags:
   - kgproject
   - semanticweb

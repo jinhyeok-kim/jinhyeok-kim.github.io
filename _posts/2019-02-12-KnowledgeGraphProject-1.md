@@ -7,7 +7,7 @@ readtime: true
 toc: true
 last_modified_at : 2019-02-12 13:11:59
 categories:
-  - 개발
+  - 지식그래프
 tags:
   - kgproject
   - knowledgegraph
