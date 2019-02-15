@@ -1,40 +1,38 @@
 ---
-title: "지식 그래프(KnowledgGraph) 프로젝트 - Before 2. 시맨틱 웹"
+title: "지식 그래프(KnowledgGraph) 프로젝트 - Before 3. 온톨로지 & RDF & OWL"
 sidebar:
   title: "Sidebar"
   nav: sidebar-sample
 readtime: true
 toc: true
-last_modified_at : 2019-02-15 16:01:01 #2019-02-13 21:14:00
+last_modified_at : 2019-02-15 17:54:18
 categories:
   - 지식그래프
 tags:
   - kgproject
-  - semanticweb
+  - owl
+  - rdf
+  - ontology
 
 ---
 
-오늘은 저번 지식그래프 프로젝트 - Before 1 에서 이야기했듯이 시맨틱 웹과 온톨로지에 대해서 이야기하고 이해해보도록 하겠다. <br>
+오늘은 저번 지식그래프 프로젝트 - Before 2 에서 이야기했듯이 온톨로지에 대해서 이야기하고 이해해보도록 하겠다. <br>
 
-이전 포스팅 : [지식 그래프(KnowledgGraph) 프로젝트 - Before 1. 지식 그래프 & 시맨틱 네트워크](https://jinhyeok-kim.github.io/%EA%B0%9C%EB%B0%9C/KnowledgeGraphProject-1/)
+이전 포스팅 : [지식 그래프(KnowledgGraph) 프로젝트 - Before 2. 시맨틱 웹](https://jinhyeok-kim.github.io/%EA%B0%9C%EB%B0%9C/KnowledgeGraphProject-2/)
 
-# 시맨틱 웹(Semantic Web)란?
+# 온톨로지(Ontology)란?
 --- 
-## 시맨틱 웹(Semantic Web)의 정의
+## 온톨로지(Ontology)의 정의
 
-위키백과에서는 시맨틱 웹에 대해 다음과 같이 설명하고 있다.
+위키백과에서는 온톨로지에 대해 다음과 같이 설명하고 있다.
 
-> 시맨틱 웹(Semantic Web)은 '의미론적인 웹'이라는 뜻으로, 현재의 인터넷과 같은 분산환경에서 리소스(웹 문서, 각종 화일, 서비스 등)에 대한 **정보와 자원사이의 관계-의미 정보(Semanteme)**를 기계(컴퓨터)가 처리할 수 있는 **온톨로지** 형태로 표현하고, 이를 자동화된 기계(컴퓨터)가 처리하도록 하는 프레임워크이자 기술이다.
-> <figcaption>출처 : 시맨틱 웹 위키백과</figcaption>
+> 온톨로지(Ontology)란 사람들이 세상에 대하여 **보고 듣고 느끼고 생각하는 것**에 대하여 서로 간의 토론을 통하여 합의를 이룬 바를, **개념적이고 컴퓨터에서 다룰 수 있는 형태로 표현한 모델**로,...중략...<br><br>
+> 온톨로지는, 정보시스템의 대상이 되는 **자원의 개념을 명확하게 정의**하고 **상세하게 기술**하여 보다 **정확한 정보를 찾을 수 있도록** 하는데 목적이 있다.<br><br>
+> 온톨로지는 시맨틱 웹을 구현할 수 있는 도구로서, 지식개념을 의미적으로 연결할 수 있는 도구로서 RDF, OWL, SWRL 등의 언어를 이용해 표현한다.
+> <figcaption>출처 : 온톨로지 위키백과</figcaption>
 
-저번 포스팅을 보고나서 이번 시맨틱 웹의 정의를 보면 상대적으로 이해를 할 수 있는 부분들이 늘었다.
-<br>
-- **정보와 자원사이의 관계-의미정보**를 **온톨로지** 형태로 표현하고..
-<br>
 
-'정보와 자원사이의 관계-의미정보'라는 시맨틱 정보라는 것은 알겠고, '온톨로지'형태로 표현한다는 말에서 '온톨로지'라는 용어는 아직 낯설다.
-<br>
-온톨로지 형태는 조금이따가 알아보고 우선은 시맨틱 웹에 대해서 더 알아보자.
+
 
 ## 시맨틱 웹과 기존 웹의 차이
 
@@ -126,12 +124,11 @@ tags:
 <br>
 다음 포스팅에서는, 온톨로지와 RDF와 OWL에 대해서 알아보도록 하자.
 
- 다음 포스팅 : [지식 그래프(KnowledgGraph) 프로젝트 - Before 3. 온톨로지 & RDF & OWL](https://jinhyeok-kim.github.io/%EA%B0%9C%EB%B0%9C/KnowledgeGraphProject-3/)
 
 **블로그 내용 중 문제가 되거나 잘못 이야기한 내용이 있으면 언제든 연락 부탁드립니다.**
 
 ---
 
 참고 및 출처  
-> - [시맨틱 웹 위키백과](https://ko.wikipedia.org/wiki/%EC%8B%9C%EB%A7%A8%ED%8B%B1_%EC%9B%B9)
-> - 시맨틱 웹과 시맨틱 기술 - 정보검색론특강 & 전자기록물 관리특강 PPT
+> - [온톨로지 위키백과](https://ko.wikipedia.org/wiki/%EC%98%A8%ED%86%A8%EB%A1%9C%EC%A7%80)
+> - [온톨로지 개념 및 표현언어 - 김동범](https://www.slideshare.net/barambi/ss-1514567)
