@@ -16,7 +16,7 @@ tags:
 
 오늘은 저번 지식그래프 프로젝트 - Before 1 에서 이야기했듯이 시맨틱 웹과 온톨로지에 대해서 이야기하고 이해해보도록 하겠다. <br>
 
-이전 포스팅 : [지식 그래프(KnowledgGraph) 프로젝트 - Before 1. 지식 그래프 & 시맨틱 네트워크](https://jinhyeok-kim.github.io/%EA%B0%9C%EB%B0%9C/KnowledgeGraphProject-1/)
+이전 포스팅 : [지식 그래프(KnowledgGraph) 프로젝트 - Before 1. 지식 그래프 & 시맨틱 네트워크](https://jinhyeok-kim.github.io/%EC%A7%80%EC%8B%9D%EA%B7%B8%EB%9E%98%ED%94%84/KnowledgeGraphProject-1/)
 
 # 시맨틱 웹(Semantic Web)란?
 --- 
@@ -71,33 +71,37 @@ tags:
 
 - URI (Uniform Resource Identifier)
   - Resource Indentifier라는 말대로 리소스 식별자 즉 어떤 리소스를 가르키는 이름이다.
-  - "사과", "오렌지"와 같은 이름을 예로 들 수 있다.
+  - **"사과", "오렌지"와 같은 이름**을 예로 들 수 있다.
 - IRI (International Resource Identifier with UNICODE)
   - UNICODE로 표현하여 어떤 문자든 언어와 플랫폼, 어플리케이션에 상관 없이 표현할 수 있게 해주는 표준이다.
   - "사과"를 "Apple"이라고 하지 않고 그냥 "사과"라고 표현 할 수 있게 된다.
 - XML (eXtensible Markup Language)
   - HTML의 단점을 보완하고 태그를 자유롭게 생성하여, 어떤 문서나 객체를 정의 할 수 있게 해준다.
-  - "호랑이: 다리 4개, 꼬리 1개" 등의 정의를 가능하게 해준다.
+  - **"호랑이: 다리 4개, 꼬리 1개"** 등의 정의를 가능하게 해준다.
   - 단, **구조적 정의만을 제공**하며 **자원들 사이의 의미적 관계를 정의하지 못한다.**
 - RDF (Resource Description Framework)
   - 웹 상에서 존재하는 자원을 XML 형태로 메타데이터를 표현하기 위한 기반이 된다.
-  - "호랑이는 다리가 네개이다"와 같은 문장을 정의 할 수 있게 해준다.
+  - Ontology에 존재하는 가장 작은 단위의 데이터 집합이다.
+  - **"호랑이는 다리가 네개이다"**와 같은 문장을 정의 할 수 있게 해준다.
+  - 즉, 데이터를 표현하는 문장이라고 생각하면 된다.
+- RDFS
+  - RDF의 Schema 정보로 경량의 온톨로지를 표현한다.
+  - 여러개의 RDF를 이어서 만들어진 Class의 집합
+- OWL
+  - 특정 도메인에 대한 공유되는 일반적인 이해와 개념, 개념과의 관계를 표현하기 위한 언어이다.
+  - RDFS에서 만들어진 Class간의 **관계를 정의**할 수 있다.
 - Ontology
   - 일종의 사전과 같은 역할
   - URI로 명시된 개념/리소스들의 뜻을 **용어들의 관계성**에 의해 **컴퓨터가 찾을 수 있는 방법을 제공**해준다.
   - "아들"과 "어머니"의 관계가 역관계임을 통해 둘의 의미를 파악
   - "아들"과 "자식"의 관계가 ISA(A는 일종의 B이다)관계임을 명시하여 "자식"과 "어머니"의 뜻 또한 추론해 낼 수 있게 한다.
 
-아래는 위키백과의 정의와 동일하다.
+아래는 위키백과와 동일하다.
 
-- RDFS
-  - RDF의 Schema 정보로 경량의 온톨로지를 표현한다.
 - SPARQL
   - RDF 질의를 위한 언어이다.
 - RIF (Rule Interchange Format)
   - 규칙의 정의와 교환을 위한 계층이다.
-- OWL
-  - 특정 도메인에 대한 공유되는 일반적인 이해와 개념, 개념과의 관계를 표현하기 위한 언어이다.
 - 로직(Logic)
   - 기존에 정의된 정보들을 바탕으로 새로운 결론을 도출하는 추론 기능 등을 의미한다.
 - 증거/신뢰(Proof / Trust)
@@ -126,7 +130,7 @@ tags:
 <br>
 다음 포스팅에서는, 온톨로지와 RDF와 OWL에 대해서 알아보도록 하자.
 
- 다음 포스팅 : [지식 그래프(KnowledgGraph) 프로젝트 - Before 3. 온톨로지 & RDF & OWL](https://jinhyeok-kim.github.io/%EA%B0%9C%EB%B0%9C/KnowledgeGraphProject-3/)
+ 다음 포스팅 : [지식 그래프(KnowledgGraph) 프로젝트 - Before 3. 온톨로지 & RDF & OWL](https://jinhyeok-kim.github.io/%EC%A7%80%EC%8B%9D%EA%B7%B8%EB%9E%98%ED%94%84/KnowledgeGraphProject-3/)
 
 **블로그 내용 중 문제가 되거나 잘못 이야기한 내용이 있으면 언제든 연락 부탁드립니다.**
 
@@ -134,4 +138,5 @@ tags:
 
 참고 및 출처  
 > - [시맨틱 웹 위키백과](https://ko.wikipedia.org/wiki/%EC%8B%9C%EB%A7%A8%ED%8B%B1_%EC%9B%B9)
+> - [(Semantic Web) Basic of Semantic Web](https://operatingsystems.tistory.com/entry/Basic-of-Semantic-Web?category=578406)
 > - 시맨틱 웹과 시맨틱 기술 - 정보검색론특강 & 전자기록물 관리특강 PPT

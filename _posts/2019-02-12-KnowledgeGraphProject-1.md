@@ -98,7 +98,7 @@ tags:
 
 다음 포스팅에서는, 시맨틱 네트워크의 상위 개념이라고 볼 수 있는 시맨틱 웹과 온톨로지, 시맨틱 웹 언어인 RDF와 OWL에 대해서 알아보도록 하자.
 
- 다음 포스팅 : [지식 그래프(KnowledgGraph) 프로젝트 - Before 2. 시맨틱 웹](https://jinhyeok-kim.github.io/%EA%B0%9C%EB%B0%9C/KnowledgeGraphProject-2/)
+ 다음 포스팅 : [지식 그래프(KnowledgGraph) 프로젝트 - Before 2. 시맨틱 웹](https://jinhyeok-kim.github.io/%EC%A7%80%EC%8B%9D%EA%B7%B8%EB%9E%98%ED%94%84/KnowledgeGraphProject-2/)
 
 **블로그 내용 중 문제가 되거나 잘못 이야기한 내용이 있으면 언제든 연락 부탁드립니다.**
 
