@@ -18,7 +18,7 @@ tags:
 
 오늘은 저번 지식그래프 프로젝트 - Before 2 에서 이야기했듯이 온톨로지에 대해서 이야기하고 이해해보도록 하겠다. <br>
 
-이전 포스팅 : [지식 그래프(KnowledgGraph) 프로젝트 - Before 2. 시맨틱 웹](https://jinhyeok-kim.github.io/%EA%B0%9C%EB%B0%9C/KnowledgeGraphProject-2/)
+이전 포스팅 : [지식 그래프(KnowledgGraph) 프로젝트 - Before 2. 시맨틱 웹](https://jinhyeok-kim.github.io/%EC%A7%80%EC%8B%9D%EA%B7%B8%EB%9E%98%ED%94%84/KnowledgeGraphProject-2/)
 
 # 온톨로지(Ontology)란?
 --- 
